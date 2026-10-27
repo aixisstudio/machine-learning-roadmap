@@ -36,4 +36,13 @@ Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://g
 | Papers with Code | SOTA + implementations |
 
 ## ⚠️ Realistic note
-You
+You don't need a PhD — you need reps: build, break, rebuild. The roadmap compresses what took teams years into months of focused practice.
+
+## 🧠 Stage 4: Specialization
+
+| Track | Learn | Build |
+|---|---|---|
+| NLP | Transformers, tokenization, fine-tuning | Sentiment API, chatbot |
+| Vision | CNNs, diffusion, YOLO | Object detector |
+| RL | Q-learning, PPO | Game agent |
+| MLOps | Docker, CI/CD, mo
