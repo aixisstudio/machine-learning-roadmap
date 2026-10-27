@@ -42,6 +42,31 @@ _Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester 
 ## ⚠️ Realistic note
 You don't need a PhD — you need reps: build, break, rebuild. The roadmap compresses what took teams years into months of focused practice.
 
+## 🧠 Stage 4: Specialization
+
+| Track | Learn | Build |
+|---|---|---|
+| NLP | Transformers, tokenization, fine-tuning | Sentiment API, chatbot |
+| Vision | CNNs, diffusion, YOLO | Object detector |
+| RL | Q-learning, PPO | Game agent |
+| MLOps | Docker, CI/CD, monitoring | Deployed model service |
+| LLMs | RAG, agents, evals | Production assistant |
+
+## 📚 The canon
+
+- **CS229** (Ng) — the classic
+- **Fast.ai** — practical-first
+- **Dive into Deep Learning** (d2l.ai) — code-forward
+- **Neural Networks: Zero to Hero** (Karpathy) — build it by hand
+- **Hands-On ML** (Géron) — the reference book
+
+## 🏗️ Portfolio projects that get noticed
+
+1. Reproduce a known paper — prove rigor
+2. Fine-tune an open model on niche data — show domain thinking
+3. Deploy a model with monitoring — production maturity
+4. Contribute to a known ML library — community signal
+
 ---
 ## Contribuer
 
