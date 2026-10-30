@@ -4,68 +4,66 @@
 
 Python から本番 ML までのロードマップ
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+## ️️ パス
 
-## 🗺️ The path
+##1. 財団(4-8 wks)
+- Python + NumPy + Pandas - 最初に流暢
+- 数学:線形アルゲブラ(ベクトル/マトリックスmults)、計算(勾配)、確率基本 — [3Blue1Brown](https://www.youtube.com/@3blue1brown) 直感のための
 
-### 1. Foundations (4-8 wks)
-- Python + NumPy + Pandas — fluency first
-- Math: linear algebra (vectors/matrix mults), calculus (gradients), probability basics — [3Blue1Brown](https://www.youtube.com/@3blue1brown) for intuition
+##2. クラシックML(6-10 wks)
+- Andrew NgのML専門化(Coursera)
+- scikit-learn:回帰→木→アンサンブル
+- ビルド:実際のデータセット(Kaggle Titanic → House Prices)で予測する何か
 
-### 2. Classic ML (6-10 wks)
-- Andrew Ng's ML Specialization (Coursera)
-- scikit-learn: regression → trees → ensembles
-- Build: predict something on a real dataset (Kaggle Titanic → House Prices)
+##3. ディープラーニング (8-12 wks)
+- fast.ai または PyTorch チュートリアル — テンソル、オートグレード、トレーニング ループ
+- CNN(ビジョン)、RNN/トランスフォーマー(シーケンス)
+- ビルド:イメージの分類器、そして小さいLMを微調整して下さい
 
-### 3. Deep learning (8-12 wks)
-- fast.ai or PyTorch tutorials — tensors, autograd, training loops
-- CNNs (vision), RNNs/transformers (sequence)
-- Build: image classifier, then fine-tune a small LLM
+##4. モダンスタック(オニング)
+- 変圧器のアーキテクチャ — *注意はあなたが必要とするすべてです*
+- ハッギング 顔の変圧器+ PEFT/LoRAの微調整
+- RAG:埋め込み+ベクトルDB +検索
 
-### 4. Modern stack (ongoing)
-- Transformers architecture — *Attention Is All You Need*
-- HuggingFace transformers + PEFT/LoRA fine-tuning
-- RAG: embeddings + vector DBs + retrieval
+##5. 生産
+- サービング(FastAPI、vLLM)、楕円形、監視、コスト
+- MLOps:実験(MLflow)、データバージョン(DVC)、展開
 
-### 5. Production
-- Serving (FastAPI, vLLM), evals, monitoring, cost
-- MLOps: experiments (MLflow), data versioning (DVC), deployment
-
-## 🧪 Practice
-| Resource | Focus |
+## 🧪 練習
+| リソース | フォーカス |
 |---|---|
-| Kaggle | Competitions & datasets |
-| HuggingFace courses | Free, hands-on |
-| fast.ai | Top-down practical deep learning |
-| Papers with Code | SOTA + implementations |
+| カグル | コンペティション・データセット |
+| ハッギングコース | 無料・ハンズオン |
+| Fast.ai | トップダウン実践ディープラーニング |
+| コードの紙 | SOTA + 実装 |
 
-## ⚠️ Realistic note
-You don't need a PhD — you need reps: build, break, rebuild. The roadmap compresses what took teams years into months of focused practice.
+## ⚠️ 現実的なノート
+PhD を必要としない — ビルド、ブレイク、リビルドが必要です。 ロードマップは、チームを集中した練習の年数に圧縮します。
 
-## 🧠 Stage 4: Specialization
+## 🧠 ステージ4: 特別化
 
-| Track | Learn | Build |
+| トラック | 学習 | ビルド |
 |---|---|---|
-| NLP | Transformers, tokenization, fine-tuning | Sentiment API, chatbot |
-| Vision | CNNs, diffusion, YOLO | Object detector |
-| RL | Q-learning, PPO | Game agent |
-| MLOps | Docker, CI/CD, monitoring | Deployed model service |
-| LLMs | RAG, agents, evals | Production assistant |
+| NLP | トランス、トークン化、微調整 | センティメント API、チャットボット |
+| ビジョン | CNN・拡散・YOLO | オブジェクトディテクタ |
+| RL | Q-ラーニング・PPO | ゲームエージェント |
+| MLOps | ドッカー・CI・CD・モニタリング | 展開モデルサービス |
+| LLM | 研究開発 | 研究開発 | 製造アシスタント |
 
-## 📚 The canon
+## 📚 📚
 
-- **CS229** (Ng) — the classic
-- **Fast.ai** — practical-first
-- **Dive into Deep Learning** (d2l.ai) — code-forward
-- **Neural Networks: Zero to Hero** (Karpathy) — build it by hand
-- **Hands-On ML** (Géron) — the reference book
+- **CS229** (Ng) — 古典
+- **Fast.ai** — 実用的優先
+- **深層学習** (d2l.ai) — コードフォワード
+-**Neural Networks:ゼロからヒーロー**(Karpathy) — 手でビルドする
+-**Hands-On ML** (Géron) —参考書
 
-## 🏗️ Portfolio projects that get noticed
+## 🏗️ 通知を受けるポートフォリオプロジェクト
 
-1. Reproduce a known paper — prove rigor
-2. Fine-tune an open model on niche data — show domain thinking
-3. Deploy a model with monitoring — production maturity
-4. Contribute to a known ML library — community signal
+1. 既知の紙を再生成 — 厳格
+2. ニッチデータのオープンモデルを微調整 — ドメインの考え方を示す
+3. モニタリングでモデルを展開 — 生産成熟度
+4. 既知のMLライブラリへの貢献 — コミュニティシグナル
 
 ---
 ## 貢献
