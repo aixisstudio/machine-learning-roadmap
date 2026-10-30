@@ -4,68 +4,66 @@
 
 从 Python 到生产级 ML — 路线图
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
+##### 路径#
 
-## 🗺️ The path
+1. 基金会(4-8瓦克)
+- Python + NumPy + Pandas - 流利先行
+- 数学:直觉的线性代数(矢量/马特里克斯穆尔特),微积分(梯度),概率基础——[3 Blue1Brown](https://www.youtube.com/@3blue1brown)
 
-### 1. Foundations (4-8 wks)
-- Python + NumPy + Pandas — fluency first
-- Math: linear algebra (vectors/matrix mults), calculus (gradients), probability basics — [3Blue1Brown](https://www.youtube.com/@3blue1brown) for intuition
+2. 经典ML(6-10 wks)
+- 安德鲁·恩格的ML专业(Coursera)
+- scikit-learn:回归 树木 综艺节目.
+- 构建:预测一个真实数据集上的东西(Kaggle Titanic ~ House Prices)
 
-### 2. Classic ML (6-10 wks)
-- Andrew Ng's ML Specialization (Coursera)
-- scikit-learn: regression → trees → ensembles
-- Build: predict something on a real dataset (Kaggle Titanic → House Prices)
+3. 深入学习(8-12公里)
+- 快速.ai 或 PyTorch 教程—— 收发、自动升级、培训循环
+- 有线电视新闻网(电视)、无线电新闻网/传送器(序列)
+- 构建:图像分类器,然后微调一个小LLM
 
-### 3. Deep learning (8-12 wks)
-- fast.ai or PyTorch tutorials — tensors, autograd, training loops
-- CNNs (vision), RNNs/transformers (sequence)
-- Build: image classifier, then fine-tune a small LLM
+4. 现代堆栈(正在进行中)
+- 变形器架构 - * 注意就是所有你需要的*
+- 拥抱 面部变压器+PEFT/LORA微调
+- RAG:嵌入式+矢量DB+检索
 
-### 4. Modern stack (ongoing)
-- Transformers architecture — *Attention Is All You Need*
-- HuggingFace transformers + PEFT/LoRA fine-tuning
-- RAG: embeddings + vector DBs + retrieval
+5. 生产
+- 服务(快速API、VLLM)、电子评估、监测、费用
+- MLOPS:实验(ML流量),数据版本(DVD),部署
 
-### 5. Production
-- Serving (FastAPI, vLLM), evals, monitoring, cost
-- MLOps: experiments (MLflow), data versioning (DVC), deployment
-
-## 🧪 Practice
-| Resource | Focus |
+####练习#
+* 资源* * 焦点*
 |---|---|
-| Kaggle | Competitions & datasets |
-| HuggingFace courses | Free, hands-on |
-| fast.ai | Top-down practical deep learning |
-| Papers with Code | SOTA + implementations |
+Kaggle 比赛和数据集
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}哈金斯法士课程 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}免费 亲手
+快速。 。 。
+* 与守则有关的文件+执行文件
 
-## ⚠️ Realistic note
-You don't need a PhD — you need reps: build, break, rebuild. The roadmap compresses what took teams years into months of focused practice.
+□□□□□□□□实录.
+你不需要博士学位——你需要代表:建设,破碎,重建. 路线图压缩了各小组历时数年的集中做法。
 
-## 🧠 Stage 4: Specialization
+□□□□□□ 阶段4:专业
 
-| Track | Learn | Build |
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}============================================================================================================================
 |---|---|---|
-| NLP | Transformers, tokenization, fine-tuning | Sentiment API, chatbot |
-| Vision | CNNs, diffusion, YOLO | Object detector |
-| RL | Q-learning, PPO | Game agent |
-| MLOps | Docker, CI/CD, monitoring | Deployed model service |
-| LLMs | RAG, agents, evals | Production assistant |
+NLP 变形器 符号化 微调 QQ 感知 API 聊天机 QQ
+YOLO 物体探测器
+RL Q-学习,PPO QQ游戏代理QQ
+监测部署的模型服务
+RAG 代理 evals 制作助理
 
-## 📚 The canon
+{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}# {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}##########
 
-- **CS229** (Ng) — the classic
-- **Fast.ai** — practical-first
-- **Dive into Deep Learning** (d2l.ai) — code-forward
-- **Neural Networks: Zero to Hero** (Karpathy) — build it by hand
-- **Hands-On ML** (Géron) — the reference book
+- **CS229**(Ng)——经典
+- ** 快速 -- -- 实际第一
+- ** 深入学习**(d2l.ai)——代码前导
+- **神经网络:零对英雄**(Karopy)——用手建造.
+- ** Hands-On ML**(Géron)——参考书
 
-## 🏗️ Portfolio projects that get noticed
+# # # # 被注意的组合项目
 
-1. Reproduce a known paper — prove rigor
-2. Fine-tune an open model on niche data — show domain thinking
-3. Deploy a model with monitoring — production maturity
-4. Contribute to a known ML library — community signal
+1. 复制已知的纸张——证明硬度
+2.精细调整优势数据开放模式——显示域思维.
+3. 采用监测模式——生产成熟度
+4. 向已知的ML图书馆提供社区信号
 
 ---
 ## 贡献
