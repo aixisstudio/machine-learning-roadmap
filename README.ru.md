@@ -4,68 +4,66 @@
 
 От Python до продакшн ML — дорожная карта
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+##  ️ Путь
 
-## 🗺️ The path
+###1. Основания (4-8 wks)
+Python + NumPy + Pandas — беглость
+- Математика: линейная алгебра (векторы/мульты матриц), исчисление (градиенты), основы вероятности - [3Blue1Brown] (https://www.youtube.com/@3blue1brown) для интуиции
 
-### 1. Foundations (4-8 wks)
-- Python + NumPy + Pandas — fluency first
-- Math: linear algebra (vectors/matrix mults), calculus (gradients), probability basics — [3Blue1Brown](https://www.youtube.com/@3blue1brown) for intuition
+###2. Классический ML (6-10 wks)
+Специализация ML Эндрю Нга (Coursera)
+- scikit-learn: регрессия → деревья → ансамбли
+Постройте: предскажите что-нибудь на реальном наборе данных (Kaggle Titanic → House Prices)
 
-### 2. Classic ML (6-10 wks)
-- Andrew Ng's ML Specialization (Coursera)
-- scikit-learn: regression → trees → ensembles
-- Build: predict something on a real dataset (Kaggle Titanic → House Prices)
+###3. Глубокое обучение (8-12 wks)
+- fast.ai или PyTorch - тензоры, автоград, обучающие петли
+- CNN (видение), RNN/трансформеры (последовательность)
+- Построение: классификатор изображений, затем тонкая настройка небольшого LLM
 
-### 3. Deep learning (8-12 wks)
-- fast.ai or PyTorch tutorials — tensors, autograd, training loops
-- CNNs (vision), RNNs/transformers (sequence)
-- Build: image classifier, then fine-tune a small LLM
+###4.Современный стек (продолжается)
+Архитектура трансформаторов - Внимание - это все, что вам нужно
+- Обниматься Лицевые трансформаторы + тонкой настройки PEFT/LoRA
+- RAG: встраивание + вектор DBs + поиск
 
-### 4. Modern stack (ongoing)
-- Transformers architecture — *Attention Is All You Need*
-- HuggingFace transformers + PEFT/LoRA fine-tuning
-- RAG: embeddings + vector DBs + retrieval
+###5 Производство
+- Обслуживание (FastAPI, vLLM), эвалы, мониторинг, стоимость
+MLOps: эксперименты (MLflow), версия данных (DVC), развертывание
 
-### 5. Production
-- Serving (FastAPI, vLLM), evals, monitoring, cost
-- MLOps: experiments (MLflow), data versioning (DVC), deployment
-
-## 🧪 Practice
-| Resource | Focus |
+###Практика
+Источник: Focus
 |---|---|
-| Kaggle | Competitions & datasets |
-| HuggingFace courses | Free, hands-on |
-| fast.ai | Top-down practical deep learning |
-| Papers with Code | SOTA + implementations |
+| Kaggle | Конкурсы и наборы данных |
+Курсы HuggingFace | Бесплатные, практические
+| fast.ai | Сверху вниз практическое глубокое обучение |
+| Документы с кодом | SOTA + реализации |
 
-## ⚠️ Realistic note
-You don't need a PhD — you need reps: build, break, rebuild. The roadmap compresses what took teams years into months of focused practice.
+##  ️ Реалистическая нота
+Вам не нужна докторская степень — вам нужны повторения: строить, ломать, восстанавливать. Дорожная карта сжимает то, что занимало команды годы в месяцах целенаправленной практики.
 
-## 🧠 Stage 4: Specialization
+Стадия 4: Специализация
 
-| Track | Learn | Build |
+Отслеживайте, учитесь, стройте.
 |---|---|---|
-| NLP | Transformers, tokenization, fine-tuning | Sentiment API, chatbot |
-| Vision | CNNs, diffusion, YOLO | Object detector |
-| RL | Q-learning, PPO | Game agent |
-| MLOps | Docker, CI/CD, monitoring | Deployed model service |
-| LLMs | RAG, agents, evals | Production assistant |
+| NLP | Трансформаторы, токенизация, тонкая настройка | API настроений, чатбот |
+| Видение | CNNs, диффузия, YOLO | Детектор объектов |
+| RL | Q-обучение, PPO | Игровой агент |
+| MLOps | Docker, CI/CD, мониторинг | Развернутая модель
+| LLMs | RAG, агенты, эвалы | Помощник по производству |
 
-## 📚 The canon
+###Канон
 
-- **CS229** (Ng) — the classic
-- **Fast.ai** — practical-first
-- **Dive into Deep Learning** (d2l.ai) — code-forward
-- **Neural Networks: Zero to Hero** (Karpathy) — build it by hand
-- **Hands-On ML** (Géron) — the reference book
+**CS229** (Ng) — классический
+- **Fast.ai** - практичный
+**Dive into Deep Learning** (d2l.ai)
+Нейронные сети: от нуля до героя (Карпатия) — создайте их вручную
+- **Руки-на-МЛ** (Жерон) - справочник
 
-## 🏗️ Portfolio projects that get noticed
+##  ️ Портфельные проекты, которые замечают
 
-1. Reproduce a known paper — prove rigor
-2. Fine-tune an open model on niche data — show domain thinking
-3. Deploy a model with monitoring — production maturity
-4. Contribute to a known ML library — community signal
+1. Воспроизведите известную бумагу — докажите строгость
+2. Хорошо настроить открытую модель на нишевых данных - показать доменное мышление
+3. Развертывание модели с мониторингом - зрелость производства
+4.Вклад в известную библиотеку ML — сигнал сообщества
 
 ---
 ## Участие
