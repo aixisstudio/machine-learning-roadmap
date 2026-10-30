@@ -4,68 +4,66 @@
 
 De Python a ML en producción
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
-## 🗺️ The path
+## 🗺♫
 
 ### 1. Foundations (4-8 wks)
-- Python + NumPy + Pandas — fluency first
-- Math: linear algebra (vectors/matrix mults), calculus (gradients), probability basics — [3Blue1Brown](https://www.youtube.com/@3blue1brown) for intuition
+- Python + NumPy + Pandas - primera fluidez
+- Matemáticas: álgebra lineal (vectores/matrix mults), cálculo (gradientes), base de probabilidad — [3Blue1Brown] (https://www.youtube.com/@3blue1brown) para la intuición
 
-### 2. Classic ML (6-10 wks)
-- Andrew Ng's ML Specialization (Coursera)
-- scikit-learn: regression → trees → ensembles
-- Build: predict something on a real dataset (Kaggle Titanic → House Prices)
+## 2. Classic ML (6-10 wks)
+- Especialización ML de Andrew Ng (Coursera)
+- scikit-learn: regresión → árboles → ensembles
+- Construir: predecir algo en un conjunto de datos real (Kaggle Titanic → Precios de la casa)
 
-### 3. Deep learning (8-12 wks)
-- fast.ai or PyTorch tutorials — tensors, autograd, training loops
-- CNNs (vision), RNNs/transformers (sequence)
-- Build: image classifier, then fine-tune a small LLM
+### 3. Aprendizaje profundo (8-12 wks)
+- rápido.ai o PyTorch tutoriales - tensores, autograd, lazos de entrenamiento
+- CNNs (vision), RNNs/transformers (secuencia)
+- Construir: clasificador de imágenes, luego ajustar un pequeño LLM
 
-### 4. Modern stack (ongoing)
-- Transformers architecture — *Attention Is All You Need*
-- HuggingFace transformers + PEFT/LoRA fine-tuning
-- RAG: embeddings + vector DBs + retrieval
+### 4. Montaje moderno (en curso)
+- Arquitectura de transformadores - * La intención es todo lo que necesitas*
+- Hugging Transformadores faciales + PEFT/LoRA ajuste fino
+- RAG: incrustaciones + vector DBs + recuperación
 
-### 5. Production
-- Serving (FastAPI, vLLM), evals, monitoring, cost
-- MLOps: experiments (MLflow), data versioning (DVC), deployment
+### 5. Producción
+- Servir (FastAPI, vLLM), evals, monitoreo, costo
+- MLOps: experimentos (MLflow), versión de datos (DVC), despliegue
 
-## 🧪 Practice
-| Resource | Focus |
+### 🧪 Practice
+← Recursos Silencio
 |---|---|
-| Kaggle | Competitions & datasets |
-| HuggingFace courses | Free, hands-on |
-| fast.ai | Top-down practical deep learning |
-| Papers with Code | SOTA + implementations |
+viv Kaggle ← Competiciones &quot; datasets
+← Cursos de HuggingFace ← Gratis, prácticas
+Silencio rápido.ai Silencio Aprendizaje práctico en profundidad
+Silencioso Papeles con Código Silencioso SOTA + implementaciones
 
-## ⚠️ Realistic note
-You don't need a PhD — you need reps: build, break, rebuild. The roadmap compresses what took teams years into months of focused practice.
+Nota realista
+Usted no necesita un doctorado — usted necesita representantes: construir, romper, reconstruir. La hoja de ruta comprime lo que llevó a los equipos años en meses de práctica enfocada.
 
-## 🧠 Stage 4: Specialization
+## 🧠 Etapa 4: Especialización
 
-| Track | Learn | Build |
+TEN TERRITOR TERRITOR TEN TERRITOR TEN TERREN 
 |---|---|---|
-| NLP | Transformers, tokenization, fine-tuning | Sentiment API, chatbot |
-| Vision | CNNs, diffusion, YOLO | Object detector |
-| RL | Q-learning, PPO | Game agent |
-| MLOps | Docker, CI/CD, monitoring | Deployed model service |
-| LLMs | RAG, agents, evals | Production assistant |
+TEN NLP ANTE Transformers, tokenization, fine-tuning TEN Sentiment API, chatbot ANTE
+← Visión permanente CNNs, difusión, detector de objetos de YOLO
+← RL Silencio Q-aprendizaje, PPO
+Silencio MLOps Silencio Docker, CI/CD, monitoreo Silencio Servicio de modelo implementado
+← LLMs Silencio RAG, agentes, evals ¦
 
-## 📚 The canon
+El canon
 
-- **CS229** (Ng) — the classic
-- **Fast.ai** — practical-first
-- **Dive into Deep Learning** (d2l.ai) — code-forward
-- **Neural Networks: Zero to Hero** (Karpathy) — build it by hand
-- **Hands-On ML** (Géron) — the reference book
+**CS229** (Ng) — el clásico
+**Fast.ai** — prático primero
+**Dive into Deep Learning** (d2l.ai) — code-forward
+- ** Redes neuronales: Cero a Héroe** (Karpatía) - construirlo a mano
+**Hands-On ML** (Géron) — el libro de referencia
 
-## 🏗️ Portfolio projects that get noticed
+## 🏗ف Portfolio projects that get noticed
 
-1. Reproduce a known paper — prove rigor
-2. Fine-tune an open model on niche data — show domain thinking
-3. Deploy a model with monitoring — production maturity
-4. Contribute to a known ML library — community signal
+1. Reproduce un papel conocido - prueba rigor
+2. Definir un modelo abierto en datos de nicho — mostrar el pensamiento del dominio
+3. Deplorar un modelo con vigilancia - madurez de producción
+4. Contribuir a una biblioteca conocida de ML — señal comunitaria
 
 ---
 ## Contribuir
