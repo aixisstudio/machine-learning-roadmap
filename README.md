@@ -66,7 +66,7 @@ You don't need a PhD — you need reps: build, break, rebuild. The roadmap compr
 4. Contribute to a known ML library — community signal
 
 ---
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Wiretap](https://github.com/aixisstudio/Wiretap), the open-source application firewall.
 
 ## License
 
